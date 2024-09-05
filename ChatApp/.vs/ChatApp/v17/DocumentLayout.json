@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\ChatAppProject\\ChatApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C7478B-CA21-453A-A0DE-5FB81B1B2696}|ChatApp\\ChatApp.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\projects\\chatappproject\\chatapp\\chatapp\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A3C7478B-CA21-453A-A0DE-5FB81B1B2696}|ChatApp\\ChatApp.csproj|solutionrelative:chatapp\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C7478B-CA21-453A-A0DE-5FB81B1B2696}|ChatApp\\ChatApp.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\projects\\chatappproject\\chatapp\\chatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3C7478B-CA21-453A-A0DE-5FB81B1B2696}|ChatApp\\ChatApp.csproj|solutionrelative:chatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C7478B-CA21-453A-A0DE-5FB81B1B2696}|ChatApp\\ChatApp.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\projects\\chatappproject\\chatapp\\chatapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3C7478B-CA21-453A-A0DE-5FB81B1B2696}|ChatApp\\ChatApp.csproj|solutionrelative:chatapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C7478B-CA21-453A-A0DE-5FB81B1B2696}|ChatApp\\ChatApp.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\projects\\chatappproject\\chatapp\\chatapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3C7478B-CA21-453A-A0DE-5FB81B1B2696}|ChatApp\\ChatApp.csproj|solutionrelative:chatapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ChatApp\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "ChatApp\\Hubs\\ChatHub.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:27:19.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChatApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ChatApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T14:15:18.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chat.js",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\wwwroot\\js\\chat.js",
+              "RelativeDocumentMoniker": "ChatApp\\wwwroot\\js\\chat.js",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\wwwroot\\js\\chat.js",
+              "RelativeToolTip": "ChatApp\\wwwroot\\js\\chat.js",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-05T08:45:18.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ChatApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ChatApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwB4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:15:14.765Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

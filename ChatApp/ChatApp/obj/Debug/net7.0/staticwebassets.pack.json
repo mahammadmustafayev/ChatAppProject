@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\wwwroot\\img\\jhndoejhon.jpg",
+      "PackagePath": "staticwebassets\\img\\jhndoejhon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\wwwroot\\img\\mhmmddeadpool.jpg",
+      "PackagePath": "staticwebassets\\img\\mhmmddeadpool.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\wwwroot\\js\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\wwwroot\\js\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\js\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Projects\\ChatAppProject\\ChatApp\\ChatApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ChatApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ChatApp.props",
+      "PackagePath": "build\\ChatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ChatApp.props",
+      "PackagePath": "buildMultiTargeting\\ChatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ChatApp.props",
+      "PackagePath": "buildTransitive\\ChatApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

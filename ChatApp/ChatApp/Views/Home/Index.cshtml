@@ -1,0 +1,88 @@
+﻿@model HomeVM
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+    <title>Chat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link href="~/css/site.css" rel="stylesheet" />
+    <script>
+        window.console = window.console || function (t) { };
+    </script>
+
+
+
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <section class="discussions">
+                <div class="discussion search">
+                    <div class="searchbar">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" placeholder="Search..." />
+                    </div>
+                </div>
+                @foreach (var item in Model.Users)
+                {
+                    <div class="discussion">
+                        <div class="photo" style="background-image: url(/../img/@item.Image.ImageUrl);">
+                            <div id="@item.UserName" class="status @(item.ConnectionId != null?"online":"offline")"></div>
+                        </div>
+                        <div class="desc-contact">
+                            <p class="name">@item.FullName</p>
+                        </div>
+                    </div>
+
+                }
+            </section>
+            <section class="chat">
+                <div class="header-chat">
+                    @* <img class="photo rounded-circle" width="50" height="50" src="~/img/@Model.Users.FirstOrDefault().Image.ImageUrl" /> *@
+                    <i class="icon fa fa-user-o" aria-hidden="true"></i> 
+                    @if (Model.CurrentUser.FullName !=null)
+                    {
+                        <p class="name">@Model.CurrentUser.FullName</p>
+                    }
+                    <i class="icon clickable fa fa-ellipsis-h right" aria-hidden="true"></i>
+                </div>
+                <div class="messages-chat">
+                    <div class="message">
+                        @*<div class="message text-only">
+                                <div class="response">
+                                    <p class="text"> When can we meet ?</p>
+                                </div>
+                            </div>*@
+                    </div>
+                </div>
+                <div class="footer-chat">
+                    <i class="icon fa fa-smile-o clickable" style="font-size:25pt;" aria-hidden="true"></i>
+                    <input type="text" id="messageInput" class="write-message" placeholder="Type your message here" />
+                    <i id="sendButton" username="" class="icon send fa fa-paper-plane-o clickable" aria-hidden="true"></i>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="~/js/microsoft/signalr/dist/browser/signalr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/chat.js"></script>
+
+</body>
+</html>
